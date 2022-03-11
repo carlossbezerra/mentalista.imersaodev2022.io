@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a5703e;
+    color: #fff;
+}
+
+header {
+    background-color: #f04b2f;
+}
+
+header .container {
+    padding: 30px 20px;
+}
+
+header .container h3 {
+    padding-left: 400px;
+}
+
+main .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container-texto p,
+.container-texto ul {
+    width: 45%;
+}
+
+.container-inputs {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-inputs input {
+    border-radius: .3rem;    
+    width: 40%;
+    text-align: center;
+    padding: 10px 60px;
+    margin-top: 20px;
+}
+
+.container-inputs .button {
+    margin-top: 20px;
+}
+
+.container-inputs .button button {
+    border-radius: .3rem;
+    padding: 10px 25px;
+}
+
+#resultado {
+    margin-top: 30px;
+}
+
+#tentativas {
+    margin-top: 20px;
+}
